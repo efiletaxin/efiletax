@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "eFileTax",
+    "slug": "efiletax",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A3C8F"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "in.efiletax.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1A3C8F"
+      },
+      "package": "in.efiletax.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "efiletax",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
